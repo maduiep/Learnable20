@@ -1,0 +1,28 @@
+body {
+ background-color: #e9ecef;
+}
+
+jumbotron {
+ background-color: none;
+}
+
+h1 {
+ text-align: center;
+}
+
+.list-group {
+ margin-top: 1.5rem;
+}
+
+svg {
+ padding: 0 0.15rem 0 0;
+ cursor: pointer;
+}
+
+.bi {
+ font-size: 1.2rem;
+}
+
+.col {
+ margin-top: 2.5rem;
+}
