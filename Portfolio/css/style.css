@@ -273,56 +273,40 @@ i.material-icons {
 }
 
 @media screen and (max-width: 600px) {
-
-    .about-sub-info,
     .contact-info {
         display: flex;
+        min-height: 8rem;
         flex-direction: column;
-    }
-
-    .greet-info {
-        min-height: 5rem;
-        width: 10rem;
-        text-align: center;
-        font-size: 1rem;
-        line-height: 5rem;
-        border: 3px solid #fff;
-        transform: translateY(-4rem);
+        margin-left: 0;
+        margin-bottom: 1rem;
+        font-size: .5rem;
     }
 
     .tiny-textbox {
         min-height: 5rem;
-        width: 75%;
-        transform: translateY(-5.5rem);
+        width: 95%;
+        transform: translateY(-3.5rem);
     }
 
     .tiny-textbox p {
-        font-size: 1.3rem;
+        font-size: .5rem;
         line-height: 1.2;
     }
 
-    .contact-info {
-        display: flex;
-        min-height: 10rem;
-        justify-content: space-between;
-        margin-left: 0;
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .contact-info-a,
     .contact-info-b {
-        width: 15%;
-        font-size: 1.5rem;
-    }
-
-    .contact-info-b {
-        transform: translateX(-5rem);
-    }
-
-    .skill__content {
         display: flex;
         flex-direction: column;
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (min-width: 500px) {
+    .contact-info-b {
+        display: flex;
+        flex-direction: column;
+        width: 15%;
     }
 }
 
@@ -365,7 +349,7 @@ i.material-icons {
     justify-content: space-between;
     margin-left: 0;
     font-size: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .contact-info-a {
@@ -379,8 +363,7 @@ i.material-icons {
     display: flex;
     flex-direction: column;
     width: 30%;
-    transform: translateX(-15rem);
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .contact-info label {
@@ -609,5 +592,129 @@ i.social {
         margin-top: 1.5rem;
         margin-bottom: 5rem;
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-content {
+        background: #1c1829;
+        margin-top: 5rem;
+    }
+
+    .footer-header {
+        min-height: 5rem;
+        width: 20rem;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 5rem;
+        border: 3px solid #fff;
+        margin: 20px auto;
+
+    }
+
+    .footer-header h2 {
+        font-weight: 400;
+    }
+
+    .footer-contacts {
+        width: 80%;
+        margin: 2rem auto;
+
+    }
+
+    .contact {
+        display: inline-block;
+        width: 23%;
+    }
+
+    .contact h5 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .contact figure {
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 1.5;
+        opacity: .5;
+    }
+
+    .footer-social {
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-10rem);
+    }
+
+    .connect h2 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        margin-bottom: 5rem;
+    }
+
+    .footer-social a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        margin-bottom: 4rem;
+    }
+
+    .footer-social span {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .connect-message {
+        margin-top: 10rem;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+    }
+
+    /* .footer-form {
+        transform: translateX(-25rem);
+        width: 30%;
+    } */
+
+    .Message h2 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        margin-bottom: 5rem;
+    }
+
+    .form {
+        background-color: rgba(255, 255, 255, .1);
+        border: 0;
+        box-shadow: none;
+        color: #fff;
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .form-fill {
+        width: 175%;
+    }
+
+    input:hover,
+    textarea:hover {
+        background: antiquewhite;
+        color: #000;
+    }
+
+    .social-icons {
+        position: relative;
+        top: 20rem;
+        left: 7.5rem;
+    }
+
+    i.social {
+        font-size: 3.5rem;
+        color: #fff;
+        padding: 2.5rem;
+    }
+
+    .line {
+        float: right;
     }
 }
