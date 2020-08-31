@@ -1,14 +1,8 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class Form extends Component {
- state = {  }
- render() { 
-  return (
-   <React.Fragment>
-     
-   </React.Fragment>
-  );
- }
+function Form() {
+  return <div></div>;
 }
- 
+
+
 export default Form;

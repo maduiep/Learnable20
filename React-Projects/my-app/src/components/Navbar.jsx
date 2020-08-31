@@ -1,45 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Navbar extends Component {
-  state = {};
-  render() {
-    return (
-      <React.Fragment>
-        <Navbar bg="light">
-          <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-        </Navbar>
-        <br />
-        <Navbar bg="light">
-          <Navbar.Brand>Brand text</Navbar.Brand>
-        </Navbar>
-        <br />
-        <Navbar bg="primary">
-          <Navbar.Brand href="#home">
-            <img
-              src="/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
-        </Navbar>
-        <br />
-        <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src="/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "}
-            React Bootstrap
-          </Navbar.Brand>
-        </Navbar>
-      </React.Fragment>
-    );
-  }
+function Navbar() {
+  return (
+    <header className="shadow p-5 text-center">
+      <div className="container mx-auto">
+        <h1 className="text-2xl font-bold">Easy Decision Maker</h1>
+      </div>
+    </header>
+  );
 }
 
 export default Navbar;
