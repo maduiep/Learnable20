@@ -38,9 +38,9 @@ function App() {
             </li>
           ))}
           <button type="text" onClick={() => {
-            
+            setPage(0)
           }}>
-            Ask Another Random Qestion
+            Ask Another Random Qeustion
           </button>
         </span>
       )}
