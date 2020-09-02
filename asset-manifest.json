@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Learnable20/React-Projects/my-app/static/css/main.c346fcbf.chunk.css",
-    "main.js": "/Learnable20/React-Projects/my-app/static/js/main.e839d91a.chunk.js",
-    "main.js.map": "/Learnable20/React-Projects/my-app/static/js/main.e839d91a.chunk.js.map",
-    "runtime-main.js": "/Learnable20/React-Projects/my-app/static/js/runtime-main.b7262d59.js",
-    "runtime-main.js.map": "/Learnable20/React-Projects/my-app/static/js/runtime-main.b7262d59.js.map",
-    "static/js/2.652a5bb4.chunk.js": "/Learnable20/React-Projects/my-app/static/js/2.652a5bb4.chunk.js",
-    "static/js/2.652a5bb4.chunk.js.map": "/Learnable20/React-Projects/my-app/static/js/2.652a5bb4.chunk.js.map",
-    "index.html": "/Learnable20/React-Projects/my-app/index.html",
-    "precache-manifest.e47bfb443470cd0b8216b4230244c9b6.js": "/Learnable20/React-Projects/my-app/precache-manifest.e47bfb443470cd0b8216b4230244c9b6.js",
-    "service-worker.js": "/Learnable20/React-Projects/my-app/service-worker.js",
-    "static/css/main.c346fcbf.chunk.css.map": "/Learnable20/React-Projects/my-app/static/css/main.c346fcbf.chunk.css.map",
-    "static/js/2.652a5bb4.chunk.js.LICENSE.txt": "/Learnable20/React-Projects/my-app/static/js/2.652a5bb4.chunk.js.LICENSE.txt"
+    "main.css": "/Learnable20/React-Projects/my-app/public/index.html/static/css/main.c346fcbf.chunk.css",
+    "main.js": "/Learnable20/React-Projects/my-app/public/index.html/static/js/main.90ba3773.chunk.js",
+    "main.js.map": "/Learnable20/React-Projects/my-app/public/index.html/static/js/main.90ba3773.chunk.js.map",
+    "runtime-main.js": "/Learnable20/React-Projects/my-app/public/index.html/static/js/runtime-main.b16e0e6d.js",
+    "runtime-main.js.map": "/Learnable20/React-Projects/my-app/public/index.html/static/js/runtime-main.b16e0e6d.js.map",
+    "static/js/2.652a5bb4.chunk.js": "/Learnable20/React-Projects/my-app/public/index.html/static/js/2.652a5bb4.chunk.js",
+    "static/js/2.652a5bb4.chunk.js.map": "/Learnable20/React-Projects/my-app/public/index.html/static/js/2.652a5bb4.chunk.js.map",
+    "index.html": "/Learnable20/React-Projects/my-app/public/index.html/index.html",
+    "precache-manifest.85a3c052f77d536afb7db37992d98ce0.js": "/Learnable20/React-Projects/my-app/public/index.html/precache-manifest.85a3c052f77d536afb7db37992d98ce0.js",
+    "service-worker.js": "/Learnable20/React-Projects/my-app/public/index.html/service-worker.js",
+    "static/css/main.c346fcbf.chunk.css.map": "/Learnable20/React-Projects/my-app/public/index.html/static/css/main.c346fcbf.chunk.css.map",
+    "static/js/2.652a5bb4.chunk.js.LICENSE.txt": "/Learnable20/React-Projects/my-app/public/index.html/static/js/2.652a5bb4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7262d59.js",
+    "static/js/runtime-main.b16e0e6d.js",
     "static/js/2.652a5bb4.chunk.js",
     "static/css/main.c346fcbf.chunk.css",
-    "static/js/main.e839d91a.chunk.js"
+    "static/js/main.90ba3773.chunk.js"
   ]
 }
