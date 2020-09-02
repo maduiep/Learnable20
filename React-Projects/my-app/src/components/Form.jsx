@@ -3,7 +3,8 @@ import React from "react";
 export function Form(props) {
   const [state, setState] = React.useState(0);
   const [question, setQuestion] = React.useState("");
-  const [options, setOptions] = React.useState(["Hello", "Morgan", "Sinais"]);
+  const [options, setOptions] = React.useState(["", "", ""]);
+  const [placeholder, setPlaceholder] = React.useState([""]);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
@@ -12,11 +13,12 @@ export function Form(props) {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
-      <label>Question</label>
+      <label className="text-4xl"> Question </label>
       {/* you'll need to store the input in state */}
       <input
         type="text"
-        className="border border-gray-200 py-5 px-5 w-full"
+        placeholder="Q: Enter your question here"
+        className="border border-gray-200 py-5 px-5 w-full mt-4 text-2xl rounded-md"
         value={question}
         onChange={(evt) => {
           console.log("typing", evt.target.value);
@@ -24,12 +26,12 @@ export function Form(props) {
         }}
       />
       <div className="flex flex-col">
-        <label>Options</label>
+        <label className="text-4xl"> Options </label>
         {options.map((e, idx) => (
           <input
             key={idx}
             value={e}
-            className="border border-gray-200 py-5 px-5 w-full mb-2"
+            className="border border-gray-200 py-5 px-5 w-full mb-4 mt-4 rounded-md"
             type="text"
             onChange={(evt) => {
               const arr = [...options];
@@ -42,7 +44,7 @@ export function Form(props) {
           <button
             type="button"
             className="px-6 py-4 self-start border rounded-lg text-gray-800"
-            onClick={() => setOptions([...options, "Joseph"])}
+            onClick={() => setOptions([...options, ""])}
           >
             + Add Options
           </button>

@@ -30,16 +30,20 @@ function App() {
         />
       )}
       {page === 1 && (
-        <span>
+        <span className="text-center">
           <div className="text-3xl">{question}</div>
           {options.map((e, idx) => (
             <li key={idx} className={idx === randOpt ? "text-red-500" : ""}>
               {idx + 1}. {e}
             </li>
           ))}
-          <button type="text" onClick={() => {
-            setPage(0)
-          }}>
+          <button
+            className="text-center https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"
+            type="text"
+            onClick={() => {
+              setPage(0);
+            }}
+          >
             Ask Another Random Qeustion
           </button>
         </span>
