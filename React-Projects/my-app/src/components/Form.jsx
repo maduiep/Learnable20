@@ -7,6 +7,7 @@ export function Form(props) {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
+    // validation
     props.whenSubmitted(question, options);
   };
 

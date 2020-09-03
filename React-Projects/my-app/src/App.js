@@ -9,6 +9,37 @@ import Form from "./components/Form";
 
 const randomNumber = (limit) => Math.floor(Math.random() * limit);
 
+const QUESTIONS = "QUESTIONS";
+const incrementQuestion = (question) => {
+  // retrieve the question
+  const questions = JSON.parse(localStorage.getItem(QUESTIONS));
+
+  if (questions === null) {
+    localStorage.setItem(QUESTIONS, JSON.stringify([{ question, count: 1 }]));
+    return false;
+  }
+
+  // check if the question was in localstorage
+  const index = questions.findIndex((e) => e.question === question);
+
+  // if true
+  if (index > -1) {
+    // increment
+    questions[index].count += 1;
+  } else {
+    // else
+    // set to one
+    questions.push({
+      question,
+      count: 1,
+    });
+  }
+
+  localStorage.setItem(QUESTIONS, JSON.stringify(questions));
+};
+
+const getQuestions = () => JSON.parse(localStorage.getItem(QUESTIONS));
+
 function App() {
   const [page, setPage] = React.useState(0);
   const [question, setQuestion] = React.useState("");
@@ -25,6 +56,7 @@ function App() {
             setQuestion(question);
             setOptions(options);
             setRandomOption(randomNumber(options.length));
+            incrementQuestion(question);
             console.log("Data arrived", question, options);
           }}
         />
@@ -38,7 +70,7 @@ function App() {
             </li>
           ))}
           <button
-            className="text-center https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"
+            className="text-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
             type="text"
             onClick={() => {
               setPage(0);
@@ -46,6 +78,13 @@ function App() {
           >
             Ask Another Random Qeustion
           </button>
+          <div>
+            {getQuestions().map((e, idx) => (
+              <div>
+                {e.question} - {e.count}
+              </div>
+            ))}
+          </div>{" "}
         </span>
       )}
     </div>
