@@ -4,7 +4,6 @@ export function Form(props) {
   const [state, setState] = React.useState(0);
   const [question, setQuestion] = React.useState("");
   const [options, setOptions] = React.useState(["", "", ""]);
-  const [placeholder, setPlaceholder] = React.useState([""]);
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
