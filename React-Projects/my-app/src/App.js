@@ -69,15 +69,17 @@ function App() {
               {idx + 1}. {e}
             </li>
           ))}
-          <button
-            className="text-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-            type="text"
-            onClick={() => {
-              setPage(0);
-            }}
-          >
-            Ask Another Random Qeustion
-          </button>
+          <div className="content-center">
+            <button
+              className="text-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              type="text"
+              onClick={() => {
+                setPage(0);
+              }}
+            >
+              Ask Another Random Qeustion
+            </button>
+          </div>
           <div>
             {getQuestions().map((e, idx) => (
               <div>
