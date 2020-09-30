@@ -2,10 +2,8 @@
 //this.title = title;
 //}
 
-
-
-/**
- * Book class
+/*
+ Book class
  */
 class Book {
   constructor(title) {
@@ -21,6 +19,8 @@ class Book {
     this.available = status;
   }
 }
+
+exports.Book = Book;
 
 const Store = function () {
 
@@ -70,7 +70,7 @@ const Store = function () {
   return new Store();
 }();
 
-
+exports.Store = Store;
 
 
 
@@ -84,3 +84,5 @@ console.log('Borrowed Books: ', Store.getBorrowedBooks());
 Store.returnBook('Things fall apart');
 console.log('Available Books: ', Store.getAvailableBooks());
 console.log('Borrowed Books: ', Store.getBorrowedBooks());
+
+
