@@ -13,7 +13,6 @@ test("Should show Things fall apart as available book", () => {
  expect(bookStore.getAvailableBooks()).toContain('Things fall apart')
 })
 
-
 test("Should check for length of available books when a book is borrowed", () => {
  const bookStore = Store;
  Store.lend('Rich dad, poor dad');
