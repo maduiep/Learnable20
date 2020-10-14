@@ -9,3 +9,9 @@
   --vividTang-bg-color: #F5772F;
   --sunsetOrange-bg-color: #E13F29;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
