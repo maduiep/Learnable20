@@ -36,14 +36,13 @@ const Homepage = ()  => {
        We understand that opportunities are scarce in these parts. We <br /> are either creating or exposing our people to these <br /> opportunities.
       </p>
      </div>
-
      <div className="about--image-content">
       <diV className="about--arrow-img"></diV>
       <div className="about--main--img"></div>
      </div>
     </section>
-    <section className="genesys__learnable--section">
 
+    <section className="genesys__learnable--section">
      <div className="learnable--img"></div>
 
      <div className="learnable--text-content">
@@ -55,8 +54,47 @@ const Homepage = ()  => {
       <span><a href="#" className="learn-more">learn more</a></span>
      </div>
     </section>
-    <section className="genesys__agora--section"></section>
-    <section className="genesys__startzone--section"></section>
+
+    <section className="genesys__agora--section">
+     <div className="agora--text-content">
+      <h1 className="agora--main-text">Agora</h1>
+      <p className="agora-sub-text">
+       We are reimagining the workplace and how people work. 
+       Find out how our <br /> 
+       co-working spaces can help you enjoy the work that you do.
+      </p>
+      <span><a href="#" className="learn-more">learn more</a></span>
+     </div>
+     <div className="agora--img"></div>
+    </section>
+    <section className="genesys__startzone--section">
+     <div className="startzone--img"></div>
+
+     <div className="startzone--text-content">
+      <h1 className="startzone--main-text">StartZone</h1>
+      <p className="startzone-sub-text">
+       The business environment is harsh for early-stage businesses. 
+       We can help you <br /> rise above it all.
+      </p>
+      <span><a href="#" className="learn-more">learn more</a></span>
+     </div>
+    </section>
+
+    <section className="genesys__otherThings--section">
+    </section>
+
+    <section className="genesys__bestTeam--section">
+     <div className="bestTeam--img"></div>
+
+     <div className="bestTeam--text-content">
+      <h1 className="bestTeam--main-text">The best team in the world</h1>
+      <p className="bestTeam-sub-text">
+       We work with the most amazing people our industry has to offer. <br/> 
+       They are really passionate about making a difference
+      </p>
+      <span><a href="#" className="learn-more">See team</a></span>
+     </div>
+    </section>
    </main>
 
    <footer></footer>

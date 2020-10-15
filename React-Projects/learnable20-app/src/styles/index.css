@@ -11,6 +11,7 @@
   --grey-bg-color: #C4C4C4;
 }
 
+/* General styles */
 *,
 *::after,
 *::before{
@@ -24,9 +25,11 @@ body {
   font-family: "Roboto", "Nunito";
 }
 
+/* Header styles */
+
 .genesys__header {
  width: 100%;
- height: 9rem;
+ height: 10rem;
  display: flex;
  justify-content: space-between;
  padding-left: 5rem;
@@ -72,6 +75,8 @@ span .build {
  border-radius: .5rem;
 }
 
+/* About styles */
+
 .genesys__about--section {
  width: 100%;
  height: 65rem;
@@ -115,6 +120,7 @@ span .build {
  background-size: cover;
 }
 
+/* Leanrable styles */
 .genesys__learnable--section {
  display: flex;
  justify-content: space-evenly;
@@ -136,6 +142,7 @@ span .build {
 
 .learnable--text-content {
  padding-right: 5rem;
+ color: var(--gunMetalbg-bg-color)
 }
 
 .learnable--text-content h1 {
@@ -157,5 +164,163 @@ span .build {
 
 .learnable--text-content a {
  color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+/* Agora styles */
+.genesys__agora--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: var(--grey-bg-color);
+}
+
+.genesys__agora--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.agora--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/agora.png');
+ background-size: cover;
+}
+
+.agora--text-content {
+ padding-right: 5rem;
+ color: var(--gunMetalbg-bg-color)
+}
+
+.agora--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.agora--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.agora--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.agora--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+/* Startzoe styles */
+
+.genesys__startzone--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.genesys__startzone--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.startzone--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/startzone.png');
+ background-size: cover;
+}
+
+.startzone--text-content {
+ padding-right: 5rem;
+ color: var(--gunMetalbg-bg-color)
+}
+
+.startzone--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.startzone--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.startzone--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.startzone--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+
+/* Other things styles */
+
+.genesys__otherThings--section {
+ width: 100%;
+ height: 50rem;
+ background-color: #E13F29;
+}
+
+/* The Best Team Styles */
+
+.genesys__bestTeam--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: var(--spaceCadet-bg-color);
+}
+
+.genesys__bestTeam--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.bestTeam--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/bestTeam.png');
+ background-size: cover;
+}
+
+.bestTeam--text-content {
+ padding-right: 5rem;
+ color: var(--main-bg-color)
+}
+
+.bestTeam--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.bestTeam--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.bestTeam--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.bestTeam--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
  font-weight: bold;
 }
