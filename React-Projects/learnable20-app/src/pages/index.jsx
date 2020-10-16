@@ -81,6 +81,26 @@ const Homepage = ()  => {
     </section>
 
     <section className="genesys__otherThings--section">
+      <div className="otherThings__boxes">
+
+        <div className="boxes--1">
+          <div className="box--1"></div>
+          <div className="box--2"></div>
+          <p className="codeville"><a href="#">CodeVille</a></p>
+        </div>
+
+        <div className="boxes--2">
+          <div className="box--3">
+           <h1><a href="#">Genesys <br/> Ignite</a></h1>
+          </div>
+          <div className="box--4"></div>
+           <p className="pink"><a href="#">Pink summer <br/> of code</a></p>
+        </div>
+        
+      </div>
+      <div className="otherThings__text">
+        <h1 className="otherThings__h1">Other things we <br/>do</h1>
+      </div>
     </section>
 
     <section className="genesys__bestTeam--section">
@@ -95,9 +115,73 @@ const Homepage = ()  => {
       <span><a href="#" className="learn-more">See team</a></span>
      </div>
     </section>
+
+    <section className="genesys__subscribe--section">
+      <diV className="subscribe--arrow-img"></diV>
+      <div className="subscribe--text-content">
+       <diV className="subscribe--text">
+        <h1>Stay up to date on what we <br/> are doing and new learning  <br/> opportunities</h1>
+       </diV>
+       <diV className="subscribe--email-vpp">
+        <p className="email-add">Your email</p>
+        <hr/>
+        <p className="vpp">View Privacy Policy</p>
+       </diV>
+       <div className="subscribe__button">
+        <button className="subscribe--btn">subscribe</button>
+       </div>
+      </div>
+    </section>
    </main>
 
-   <footer></footer>
+   <footer className="genesys__footer">
+    <div className="footer__content">
+     <div className="footer__left">
+     <ul className="footer__link-1">
+      <li><a href="#" className="footer__link">build software</a></li>
+      <li><a href="#" className="footer__link">design different</a></li>
+      <li><a href="#" className="footer__link">apply your knowledge</a></li>
+      <li><a href="#" className="footer__link">faq</a></li>
+     </ul>
+     
+     </div>
+     <div className="footer__middle">
+      <p className="footer__item-1">
+        Our Local Campus center: Kilometer 7, 
+        Enugu/Port<br/> Harcourt, Expressway, 
+        Centenary City, Enugu.<br/>  Nigeria
+      </p>
+      <p className="underline touch"><a href="#">get in touch</a></p>
+     </div>
+
+     <div className="footer__right">
+      <div className="footer__img"></div>
+        <div className="footer__remark">
+          <p className="footer__item-2">
+            Learnable is proud to be <br/> 
+            a collaborative effort of <br/>  
+            all the arms of our <br/>  product team
+          </p>
+          <p className="underline studio"><a href="#">head to devstudio</a></p>
+        </div>
+     </div>
+    </div>
+    <div className="footer__end">
+
+     <ul className="footer__icons">
+      <li className="center"><a href="#"></a></li>
+      <li className="center"><a href="#"></a></li>
+      <li className="center"><a href="#"></a></li>
+      <li className="center"><a href="#"></a></li>
+      <li className="center"><a href="#"></a></li>
+      <li className="center"><a href="#"></a></li>
+     </ul>
+
+     <div className="footer__copyright">
+      <p className="copy--right">&copy; Genesys 2020 <span className="ps">Privacy Statement</span></p>
+    </div>
+    </div>
+  </footer>
   </>
  )
 }

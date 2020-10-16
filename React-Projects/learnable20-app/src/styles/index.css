@@ -272,7 +272,77 @@ span .build {
 .genesys__otherThings--section {
  width: 100%;
  height: 50rem;
- background-color: #E13F29;
+ display: flex;
+ justify-content: space-evenly;
+ background-color: var(--grey-bg-color);
+}
+
+.otherThings__boxes {
+  width: 45rem;
+  height: 35.5rem;
+  margin-top: 5rem;
+}
+
+.otherThings__text {
+  width: 45rem;
+  height: 35.5rem;
+  margin-top: 5rem;
+}
+
+.otherThings__text h1 {
+  padding-top: 15rem;
+  font-size: 3.5rem;
+}
+
+.otherThings__boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.box--1 {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+  background-image: url('/img/crowd.png');
+  background-size: cover;
+}
+
+.box--2 {
+  width: 15rem;
+  height: 15rem;
+  background-image: url('/img/boy.png');
+  background-size: cover;
+ 
+}
+
+.box--3 {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+  margin-right: 10rem;
+
+}
+
+.box--4 {
+  width: 15rem;
+  height: 15rem;
+  background-image: url('/img/girls.png');
+  background-size: cover;
+}
+
+.box--3 h1 {
+  padding-top: 5rem;
+  text-decoration: underline;
+}
+
+.codeville, .pink {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: initial;
+  color: var( --spaceCadet-bg-color)
 }
 
 /* The Best Team Styles */
@@ -324,3 +394,136 @@ span .build {
  font-size: 1.5rem;
  font-weight: bold;
 }
+
+/* genesy subscribe section styles */
+
+.genesys__subscribe--section {
+ background-color: var(--cbGreen-bg-color);
+ display: flex;
+ height: 25rem;
+}
+
+.subscribe--arrow-img {
+ width: 10%;
+ height: 100%;
+ background-color: var(--main-bg-color);
+ background-image: url('/img/arrow-up.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.subscribe--text-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe--text {
+  margin-left: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subscribe--email-vpp {
+  margin-left: 15rem;
+  font-size: 1.3rem;
+}
+
+.email-add, .vpp {
+  padding-bottom: 1rem;
+   padding-top: 1rem;
+}
+
+hr {
+  width: 20rem;
+  color: var(--gunMetalbg-bg-color) !important;
+}
+
+.subscribe__button {
+  margin-left: 10rem;
+} 
+
+.subscribe--btn {
+  padding: .5rem;
+  background: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+/* footer styles */
+.genesys__footer {
+ width: 100%;
+ height: 35rem;
+ /* background-color: orangered; */
+}
+
+.footer__content {
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer__left ul li a:link {
+ text-decoration: underline;
+ font-size: 1.3rem;
+ color: var(--spaceCadet-bg-color);
+}
+
+.underline a:link {
+ text-decoration: underline;
+ font-size: 1.3rem;
+ color: var(--spaceCadet-bg-color);
+}
+
+.studio {
+  padding-top: 1.5rem;
+}
+
+.touch {
+  margin-top: 5rem;
+}
+
+.footer__right {
+  display: flex;
+}
+
+.footer__img {
+ width: 15rem;
+ height: 15rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/footer.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.footer__link-1 {
+  padding-top: 3.3rem;
+}
+
+.footer__item-1, .footer__right {
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  padding-right: 5rem;
+}
+
+.footer__remark {
+  padding-top: 5rem;
+  padding-left: 3.5rem;
+}
+
+.touch {
+  padding-top: 2.5rem;
+}
+
+.footer__copyright {
+ text-align: center;
+}
+
+.copy--right {
+ text-transform: uppercase;
+}
+
+.ps {
+  display: inline-block;
+   padding-left: 1.5rem;
+}
+
