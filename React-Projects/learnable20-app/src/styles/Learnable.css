@@ -75,6 +75,268 @@ span .build {
  border-radius: .5rem;
 }
 
+/* learnable styles */
+.learnable__navbar {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var( --spaceCadet-bg-color);
+}
+
+/* main contents styles */
+.learnable__commingsoon {
+  width: 100%;
+  height: 15.5rem;
+  background-color: var(--saffron-bg-color);
+}
+
+.learnable__everything {
+  width: 100%;
+  height: 44rem;
+  background-color: var(---main-bg-color);
+}
+
+.learnable__gathering {
+  width: 100%;
+  height: 33.5rem;
+  background-color: var(--grey-bg-color)
+}
+
+.learnable__making {
+  width: 100%;
+  height: 40.75rem;
+  background-color: var(--main-bg-color);
+}
+
+.learnable__experience {
+  width: 100%;
+  height: 48.75rem;
+  background-color: var(--grey-bg-color);
+}
+
+.learnable__software {
+  width: 100%;
+  height: 75rem;
+  background-color: var(--main-bg-color);
+}
+
+.learnable__design {
+  width: 100%;
+  height: 75rem;
+  background-color: var(--grey-bg-color);
+}
+
+.learnable__eligible {
+  width: 100%;
+  height: 48.75rem;
+  background-color: var(--main-bg-color)
+}
+
+.learnable__culture {
+  width: 100%;
+  height: 48.75rem;
+  background-color: var( --vividTang-bg-color);
+}
+
+.learnable__learning {
+  width: 100%;
+  height: 48.75rem;
+  background-color: var(--main-bg-color);
+}
+
+.learnable__experts {
+  width: 100%;
+  height: 48.75rem;
+  background-color: var(--grey-bg-color);
+}
+
+.learnable__classrooms {
+  width: 100%;
+  height: 48.5rem;
+  background-color: var(--main-bg-color);
+}
+
+.learnable__apply {
+  width: 100%;
+  height: 48.75rem;
+  background-color: var(--spaceCadet-bg-color);
+}
+
+.learnable__classrooms {
+  width: 100%;
+  height: 56rem;
+  background-color: var(--main-bg-color);
+}
+
+.learnable__journal {
+  width: 100%;
+  height: 69.5rem;
+  background-color: var(--grey-bg-color);
+}
+
+/* broadcast */
+
+.learnable__broadcast {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--main-bg-color);
+}
+
+.broadcast--text p {
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.broadcast--image-icon-1 {
+  width: 12rem;
+  height: 2.5rem;
+  background-image: url('/img/sponsor-1.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+}
+
+.broadcast--image-icon-2 {
+  width: 12rem;
+  height: 2.5rem;
+  background-image: url('/img/sponsor-2.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+}
+
+.broadcast--image-icon-3 {
+  width: 12rem;
+  height: 2.5rem;
+ background-image: url('/img/sponsor-3.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+}
+
+.broadcast--image-icon-4 {
+  background-image: url('/img/sponsor-4.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+}
+
+.broadcast--image-icon-5 {
+  width: 12rem;
+  height: 2.5rem;
+ background-image: url('/img/sponsor-5.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center; 
+}
+
+/* Subscribe */
+.learnable__subscribe {
+  width: 100%;
+  height: 19rem;
+  background-color: var(--saffron-bg-color); 
+  display: flex;
+}
+
+.subscribe--arrow-img {
+  width: 10%;
+  height: 100%;
+}
+
+.subscribe--text-content {
+  width: 90%;
+  height: 100%;
+}
+
+.subscribe--arrow-img {
+ width: 10%;
+ height: 100%;
+ background-color: var(--main-bg-color);
+ background-image: url('/img/arrow-up.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.subscribe--text-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 10rem;
+}
+
+.subscribe--text-content h1 {
+  font-size: 2.5rem;
+}
+
+.subscribe--email-vpp {
+   font-size: 1.5rem;
+}
+
+.email-add, .vpp {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+hr {
+  width: 20rem;
+  background-color: var(--gunMetalbg-bg-color) !important;
+}
+
+.subscribe--btn {
+  padding: .5rem;
+  background: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+/* .subscribe--arrow-img {
+ width: 10%;
+ height: 100%;
+ background-color: var(--main-bg-color);
+ background-image: url('/img/arrow-up.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.subscribe--text-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe--text {
+  margin-left: 7rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.subscribe--email-vpp {
+  margin-left: 10rem;
+  font-size: 1rem;
+}
+
+.email-add, .vpp {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+hr {
+  width: 10rem;
+  color: var(--gunMetalbg-bg-color) !important;
+}
+
+.subscribe__button {
+  margin-left: 5rem;
+} 
+
+.subscribe--btn {
+  padding: .5rem;
+  background: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+} */
+
+
+
 /* footer styles */
 .genesys__footer {
  width: 100%;

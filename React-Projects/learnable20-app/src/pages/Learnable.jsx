@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import '../styles/Learnable.css'
 
@@ -6,7 +9,7 @@ const Learnable = () => {
   <>
    <header className="genesys__header">
     <div className="genesys__logo">
-     <img className="logo" src="/img/logo.png" all="LOGO"/>
+     <img className="logo" src="/img/logo.png" all="Genesys Logo"/>
     </div>
    
      <nav className="genesys__navbar">
@@ -25,9 +28,63 @@ const Learnable = () => {
       </button>
      </div>
    </header>
+  
+   <nav className="learnable__navbar">
+   </nav>
 
+   <main>
+    <section className="learnable__commingsoon">
+    </section>
+    <section className="learnable__everything"></section>
+    <section className="learnable__gathering"></section>
+    <section className="learnable__making"></section>
+    <section classame="learnable__experience"></section>
+    <section className="learnable__software"></section>
+    <section className="learnable__design"></section>
+    <section className="learnable__eligible"></section>
+    <section className="learnable__culture"></section>
+    <section className="learnable__learning"></section>
+    <section className="learnable__experts"></section>
+    <section className="learnable__classrooms"></section>
+    <section className="learnable__apply"></section>
+    <section className="learnable__faq"></section>
+    <section className="learnable__journal">
+      <div className="journal--text">
+        <h1>Journal</h1>
+        <p><a href="#">view all</a></p>
+      </div>
+    </section>
+    <section className="learnable__broadcast">
+      <div className="broadcast--text">
+        <p><a href="#">Mentioned in</a></p>
+      </div>
+      <div className="broadcast--image-icon-1"></div>
+      <div className="broadcast--image-icon-2"></div>
+      <div className="broadcast--image-icon-3"></div>
+      <div className="broadcast--image-icon-4"></div>
+      <div className="broadcast--image-icon-5"></div>
+    </section>
 
-   <main></main>
+    <section className="learnable__subscribe">
+       <diV className="subscribe--arrow-img"></diV>
+       <div className="subscribe--text-content">
+
+       <diV className="subscribe--text">
+        <h1>Stay up to date on what we <br/> are doing and new learning  <br/> opportunities</h1>
+       </diV>
+
+       <diV className="subscribe--email-vpp">
+        <p className="email-add">Your email</p>
+        <hr/>
+        <p className="vpp">View Privacy Policy</p>
+       </diV>
+
+       <div className="subscribe__button">
+        <button className="subscribe--btn">subscribe</button>
+       </div>
+       </div>
+    </section>
+   </main>
 
    <footer className="genesys__footer">
     <div className="footer__content">
