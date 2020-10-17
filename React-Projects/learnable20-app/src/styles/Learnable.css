@@ -240,16 +240,13 @@ span .build {
  font-weight: bold;
 }
 
-/* Software */
 .learnable__software {
   width: 100%;
   height: 75rem;
-  padding-top: 5rem;
-  display: flex;
-  justify-content: space-around;
   background-color: var(--main-bg-color);
 }
 
+<<<<<<< HEAD
 .software__contents {
   width: 40rem;
   height: 60rem;
@@ -325,6 +322,8 @@ span .build {
 
 
 /* Desin Styles */
+=======
+>>>>>>> parent of ac55aa2... deleting contents i developer file, aslo adding more contents to learnable page
 .learnable__design {
   width: 100%;
   height: 75rem;
@@ -426,121 +425,12 @@ span .build {
  font-weight: bold;
 }
 
-/* Learning */
 
 .learnable__learning {
   width: 100%;
-  height: 50rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  height: 48.75rem;
   background-color: var(--main-bg-color);
 }
-
-.learning--img {
- width: 37.5rem;
- height: 37.5rem;
- background-color:var(--grey-bg-color);
-
- display: grid;
- grid-template-rows: 9.375rem 9.375rem 9.375rem 9.375rem;
- grid-template-columns: 9.375rem 9.375rem 9.375rem 9.375rem;
-}
-
-.learning--text-content {
- padding-right: 5rem;
- color: var(--gunMetalbg-bg-color)
-}
-
-.learning--text-content h1 {
- font-size: 3rem;
- font-weight: 600;
-}
-
-.learning--text-content p {
- font-size: 1.5rem;
- font-weight: 400;
- padding-top: 3.5rem;
- padding-bottom: 2.5rem;
-}
-
-.learning--text-content span {
- text-decoration: underline;
- text-decoration-color: none;
-}
-
-.learning--text-content a {
- color: var(--cbGreen-bg-color);
- font-size: 1.5rem;
- font-weight: bold;
-}
-
-.learninng__img--1 {
-  background-image: url('/img/Rectangle-1.png');
-  background-position: center;
-}
-.learninng__img--2 {
-  background-image: url('/img/Rectangle-2.png');
-  background-position: center;
-}
-.learninng__img--3 {
-  background-image: url('/img/Rectangle-3.png');
-  background-position: center;
-}
-.learninng__img--4 {
-   background-image: url('/img/Rectangle-4.png');
-  background-position: center;
-}
-.learninng__img--5 {
-   background-image: url('/img/Rectangle-5.png');
-  background-position: center;
-}
-.learninng__img--6 {
-  background-image: url('/img/Rectangle-6.png');
-  background-position: center;
-}
-.learninng__img--7 {
-  background-image: url('/img/Rectangle-7.png');
-  background-position: center;
-}
-.learninng__img--8 {
-  background-image: url('/img/Rectangle-8.png');
-  background-position: center;
-}
-.learninng__img--9 {
-  background-image: url('/img/Rectangle-9.png');
-  background-position: center;
-}
-.learninng__img--10 {
-  background-image: url('/img/Rectangle-10.png');
-  background-position: center;
-}
-.learninng__img--11 {
-  background-image: url('/img/Rectangle-11.png');
-  background-position: center;
-}
-.learninng__img--12 {
-  background-image: url('/img/Rectangle-12.png');
-  background-position: center;
-}
-.learninng__img--13 {
-  background-image: url('/img/Rectangle-13.png');
-  background-position: center;
-}
-.learninng__img--14 {
-  background-image: url('/img/Rectangle-14.png');
-  background-position: center;
-}
-.learninng__img--15 {
-  background-image: url('/img/Rectangle-15.png');
-  background-position: center;
-}
-.learninng__img--16 {
- background-image: url('/img/Rectangle-16.png');
-  background-position: center;
-}
-
-
 
 /* Experts */
 
@@ -660,121 +550,11 @@ span .build {
 }
 
 
-/* Classrooms */
-
 .learnable__classrooms {
   width: 100%;
-  height: 50rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  height: 56rem;
   background-color: var(--main-bg-color);
 }
-
-.classrooms--img {
- width: 37.5rem;
- height: 37.5rem;
- background-color:var(--grey-bg-color);
-
- display: grid;
- grid-template-rows: 9.375rem 9.375rem 9.375rem 9.375rem;
- grid-template-columns: 9.375rem 9.375rem 9.375rem 9.375rem;
-}
-
-.classroom__img--1 {
-  background-image: url('/img/Rectangle-17.png');
-  background-position: center;
-}
-.classroom__img--2 {
- background-image: url('/img/Rectangle-18.png');
-  background-position: center;
-}
-.classroom__img--3 {
- background-image: url('/img/Rectangle-19.png');
-  background-position: center;
-}
-.classroom__img--4 {
-  background-image: url('/img/Rectangle-20.png');
-  background-position: center;
-}
-.classroom__img--5 {
-  background-image: url('/img/Rectangle-21.png');
-  background-position: center;
-}
-.classroom__img--6 {
-  background-image: url('/img/Rectangle-22.png');
-  background-position: center;
-}
-.classroom__img--7 {
-  background-image: url('/img/Rectangle-23.png');
-  background-position: center;
-}
-.classroom__img--8 {
-  background-image: url('/img/Rectangle-24.png');
-  background-position: center;
-}
-.classroom__img--9 {
-  background-image: url('/img/Rectangle-25.png');
-  background-position: center;
-}
-.classroom__img--10 {
-  background-image: url('/img/Rectangle-24.png');
-  background-position: center;
-}
-.classroom__img--11 {
-  background-image: url('/img/Rectangle-25.png');
-  background-position: center;
-}
-.classroom__img--12 {
-  background-image: url('/img/Rectangle-26.png');
-  background-position: center;
-}
-.classroom__img--13 {
-  background-image: url('/img/Rectangle-27.png');
-  background-position: center;
-}
-.classroom__img--14 {
-  background-image: url('/img/Rectangle-28.png');
-  background-position: center;
-}
-.classroom__img--15 {
-  background-image: url('/img/Rectangle-29.png');
-  background-position: center;
-}
-.classroom__img--16 {
-  background-image: url('/img/Rectangle-30.png');
-  background-position: center;
-}
-
-.classrooms--text-content {
- padding-right: 5rem;
- color: var(--gunMetalbg-bg-color)
-}
-
-.classrooms--text-content h1 {
- font-size: 3rem;
- font-weight: 600;
-}
-
-.classrooms--text-content p {
- font-size: 1.5rem;
- font-weight: 400;
- padding-top: 3.5rem;
- padding-bottom: 2.5rem;
-}
-
-.classrooms--text-content span {
- text-decoration: underline;
- text-decoration-color: none;
-}
-
-.classrooms--text-content a {
- color: var(--cbGreen-bg-color);
- font-size: 1.5rem;
- font-weight: bold;
-}
-
-
 
 /* Apply */
 .learnable__apply {
@@ -1051,6 +831,53 @@ hr {
   text-transform: uppercase;
 }
 
+/* .subscribe--arrow-img {
+ width: 10%;
+ height: 100%;
+ background-color: var(--main-bg-color);
+ background-image: url('/img/arrow-up.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.subscribe--text-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe--text {
+  margin-left: 7rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.subscribe--email-vpp {
+  margin-left: 10rem;
+  font-size: 1rem;
+}
+
+.email-add, .vpp {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+hr {
+  width: 10rem;
+  color: var(--gunMetalbg-bg-color) !important;
+}
+
+.subscribe__button {
+  margin-left: 5rem;
+} 
+
+.subscribe--btn {
+  padding: .5rem;
+  background: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+} */
+
 
 
 /* footer styles */
@@ -1130,4 +957,3 @@ hr {
    padding-left: 1.5rem;
 }
 
-/* 63.5625 */
