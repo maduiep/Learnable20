@@ -108,7 +108,6 @@ const Homepage = ()  => {
 
     <section className="genesys__bestTeam--section">
      <div className="bestTeam--img"></div>
-
      <div className="bestTeam--text-content">
       <h1 className="bestTeam--main-text">The best team in the world</h1>
       <p className="bestTeam-sub-text">

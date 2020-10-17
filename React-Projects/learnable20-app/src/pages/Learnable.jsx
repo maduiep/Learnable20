@@ -34,24 +34,164 @@ const Learnable = () => {
 
    <main>
     <section className="learnable__commingsoon">
+      <div className="comingsoon__content--1"></div>
+      <div className="comingsoon__content--2"></div>
     </section>
     <section className="learnable__everything"></section>
+
     <section className="learnable__gathering"></section>
-    <section className="learnable__making"></section>
-    <section classame="learnable__experience"></section>
-    <section className="learnable__software"></section>
-    <section className="learnable__design"></section>
-    <section className="learnable__eligible"></section>
-    <section className="learnable__culture"></section>
+
+    <section className="learnable__making">
+      <div className="making--text-content">
+        <h1 className="making--main-text">We Make People Great</h1>
+        <p className="making-sub-text">
+          As part of our calculated efforts to contribute to the emerging <br/> 
+          knowledge and skills driven economy of Nigeria, Learnable is a <br/> 
+          6-month product development training program with an emphasis <br/> 
+          on software programming and product design. It is for outstanding <br/> 
+          young individuals who are passionate about building a career in the software industry. 
+          <br/> <br/> 
+          We primarily educate and groom software developers and <br/> 
+          designers, preparing them for the industry. 
+        </p>
+      </div>
+      <div className="making--img"></div>
+    </section>
+
+    <section className="learnable__experience">
+      <div className="experience--img"></div>
+      <div className="experience--text-content">
+        <h1 className="experience--main-text">An Unusual Learning Experience</h1>
+        <p className="experience-sub-text">
+          Our culture are the unspoken things that make us who we are at <br/> 
+          Genesys. To become one of us, 
+          you need to be like the rest of us. 
+          <br/> We believe that excellence is a culture, and we are committed to a <br/>  
+          philosophy of consistent improvement in everything we do. We are <br/> 
+          passionate, candid and we trust in the power of collaboration.
+        </p>
+      </div>
+    </section>
+
+    <section className="learnable__software"> <h1>Learn to Build Software the Right Way</h1> </section>
+
+    <section className="learnable__design"> <h1>Design Different</h1></section>
+
+    <section className="learnable__eligible">
+      <div className="eligible--text-content">
+        <h1 className="eligible--main-text">Who is Eligible?</h1>
+        <p className="eligible-sub-text">
+          Our culture are the unspoken things that make us who we are at <br/> 
+          Genesys. To become one of us, 
+          you need to be like the rest of us. 
+          <br/> We believe that excellence is a culture, and we are committed to a <br/>  
+          philosophy of consistent improvement in everything we do. We are <br/> 
+          passionate, candid and we trust in the power of collaboration.
+        </p>
+      </div>
+      <div className="eligible--img"></div>
+    </section>
+
+    <section className="learnable__culture">
+      <div className="culture--img"></div>
+      <div className="culture--text-content">
+        <h1 className="culture--main-text">Our Culture</h1>
+        <p className="culture-sub-text">
+          Our culture are the unspoken things that make us who we are at <br/> 
+          Genesys. To become one of us, 
+          you need to be like the rest of us. 
+          <br/> We believe that excellence is a culture, and we are committed to a <br/>  
+          philosophy of consistent improvement in everything we do. We are <br/> 
+          passionate, candid and we trust in the power of collaboration.
+        </p>
+      </div>
+    </section>
     <section className="learnable__learning"></section>
+
     <section className="learnable__experts"></section>
+    
     <section className="learnable__classrooms"></section>
-    <section className="learnable__apply"></section>
+    <section className="learnable__apply">
+      <div className="apply--img"></div>
+      <div className="apply--text-content">
+      <h1 className="apply--main-text">Apply Your Knowledge</h1>
+      <p className="apply-sub-text">
+        Before you’re done with Learnable, you will apply everything you’ve <br/>
+        learned. You’ll be part of a team made up of 2 designers and 4 <br/>
+        developers. You’ll get to work alongside the Genesys team on <br/>
+        projects and we’ll teach you how “the sauce” is made. By combining <br/>
+        technology, design, and great ideas, your team will have the unique <br/>
+        opportunity to collaborate with the Genesys team to bring your own <br/>
+        concept to life, from the first pen sketches to the final functioning <br/>
+        product. You’ll then get to show off your special project to everyone.  
+      </p>
+      <span><a href="#" className="learn-more">Get Started</a></span>
+      </div>
+    </section>
     <section className="learnable__faq"></section>
     <section className="learnable__journal">
       <div className="journal--text">
         <h1>Journal</h1>
         <p><a href="#">view all</a></p>
+      </div>
+
+      <div className="journal__card">
+        <div className="journal__card--1">
+          <div className="card__image--1"></div>
+          <h4 className="card__text--1">Inspiration</h4>
+          <div className="card__main--text">
+            <h1>
+              Learn Design Thinking like a <br/>
+              Pro and Build <br/> 
+              Projects that <br/>
+              People will care <br/> 
+              about
+            </h1>
+          </div>
+          <p className="card__text--2">David Mong, Apr 9, 2020</p>
+        </div>
+        <div className="journal__card--2">
+         <div className="card__image--2"></div>
+         <h4 className="card__text--1">Inspiration</h4>
+          <div className="card__main--text">
+            <h1>
+              Learn Design Thinking like a <br/>
+              Pro and Build <br/> 
+              Projects that <br/>
+              People will care <br/> 
+              about
+            </h1>
+          </div>
+          <p className="card__text--2">David Mong, Apr 9, 2020</p>
+        </div>
+        <div className="journal__card--3">
+         <div className="card__image--3"></div>
+         <h4 className="card__text--1">Inspiration</h4>
+          <div className="card__main--text">
+            <h1>
+              Learn Design Thinking like a <br/>
+              Pro and Build <br/> 
+              Projects that <br/>
+              People will care <br/> 
+              about
+            </h1>
+          </div>
+          <p className="card__text--2">David Mong, Apr 9, 2020</p>
+        </div>
+        <div className="journal__card--4">
+         <div className="card__image--4"></div>
+         <h4 className="card__text--1">Inspiration</h4>
+          <div className="card__main--text">
+            <h1>
+              Learn Design Thinking like a <br/>
+              Pro and Build <br/> 
+              Projects that <br/>
+              People will care <br/> 
+              about
+            </h1>
+          </div>
+          <p className="card__text--2">David Mong, Apr 9, 2020</p>
+        </div>
       </div>
     </section>
     <section className="learnable__broadcast">
