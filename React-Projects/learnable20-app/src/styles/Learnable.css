@@ -165,13 +165,6 @@ span .build {
  background-size: cover;
 }
 
-/* .dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-} */
 
 .making--text-content {
  padding-right: 5rem;
@@ -259,13 +252,85 @@ span .build {
 
 .software__contents {
   width: 40rem;
-  height: 63.5625rem;
- background-color: var(--grey-bg-color);
+  height: 60rem;
+ 
+  display: grid;
+  grid-template-rows: 20rem 20rem 20rem;
+  grid-template-columns: 20rem 20rem ;    
 }
 
+.software__content-1 {
+  padding: 2rem;
+  background-color: var(--spaceCadet-bg-color);
+}
+
+.software__content-2 {
+  padding: 2rem;
+  background-color: var(--cbGreen-bg-color);
+}
+
+.software__content-3 {
+  padding: 2rem;
+  background-color: var(--saffron-bg-color);
+}
+
+.software__content-4 {
+  padding: 2rem;
+  background-color: var(--darkPurple-bg-color);
+}
+
+.software__content-5 {
+  padding: 2rem;
+  background-color:var(--gunMetalbg-bg-color);
+}
+.software__content-6 {
+  padding: 2rem;
+  background-color: var(--vividTang-bg-color);
+}
+
+.software__text {
+  padding-top: 20rem;
+}
+
+.software__text h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--gunMetalbg-bg-color)
+}
+
+.software__text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--gunMetalbg-bg-color)
+}
+
+.software__text p {
+  font-size: 1.5rem;
+  color: var(--gunMetalbg-bg-color)
+}
+
+.software__text h4 {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  text-decoration: underline;
+  color: var(--cbGreen-bg-color)
+}
+
+.h1-styles {
+  font-size: 2rem;
+  color: var(--main-bg-color)
+}
+
+
+/* Desin Styles */
 .learnable__design {
   width: 100%;
   height: 75rem;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
   background-color: var(--grey-bg-color);
 }
 
