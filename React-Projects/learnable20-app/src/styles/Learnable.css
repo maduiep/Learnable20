@@ -91,6 +91,7 @@ span .build {
   display: flex;
   padding-left: 3rem;
   padding-right: 3rem;
+  color: var(--spaceCadet-bg-color);
   background-color: var(--saffron-bg-color);
 }
 
@@ -99,7 +100,18 @@ span .build {
   height: 100%;
   margin-left: 2rem;
   margin-right: 2rem;
-  background-color: green;
+  padding-left: 3rem;
+  padding-top: 5rem;
+}
+
+.comingsoon__content--1 h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.comingsoon__content--1 p {
+  font-size: 1rem;
 }
 
 .comingsoon__content--2 {
@@ -107,8 +119,20 @@ span .build {
   height: 100%;
   margin-left: 2rem;
   margin-right: 2rem;
-  background-color: blue;
+  padding-top: 5rem;
 }
+
+.comingsoon__content--2 h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.comingsoon__content--2 p {
+  font-size: 1rem;
+}
+
+
 
 .learnable__everything {
   width: 100%;
@@ -334,17 +358,123 @@ span .build {
   background-color: var(--main-bg-color);
 }
 
-.learnable__experts {
-  width: 100%;
-  height: 48.75rem;
-  background-color: var(--grey-bg-color);
-}
+/* Experts */
 
 .learnable__experts {
   width: 100%;
-  height: 48.5rem;
+  height: 50rem;
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 10rem;
   background-color: var(--grey-bg-color);
 }
+
+.experts__focus {
+  width: 45rem;
+  height: 40rem;
+  margin-right: 2rem;
+  color: var(--gunMetal-bg-color)
+}
+
+.experts__text {
+  width: 45rem;
+  height: 35.5rem;
+  margin-left: 5.5rem;
+}
+
+.focus--1 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+
+.focus--2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.focus--img-1 {
+  width: 15rem;
+  height: 12rem;
+  background-image: url('/img/nnamdi.png');
+  background-size: cover;
+}
+
+.focus--img-2 {
+  width: 15rem;
+  height: 12rem;
+  background-image: url('/img/ositadinma.png');
+  background-size: cover;
+}
+
+.focus--img-3 {
+  width: 15rem;
+  height: 12rem;
+  background-image: url('/img/idowu.png');
+  background-size: cover;
+}
+
+.focus--img-4 {
+  width: 15rem;
+  height: 12rem;
+  background-image: url('/img/ezra.png');
+  background-size: cover;
+}
+
+.focus--img-5 {
+  width: 15rem;
+  height: 12rem;
+  background-image: url('/img/david.png');
+  background-size: cover;
+}
+
+.focus--img-6 {
+  width: 15rem;
+  height: 12rem;
+  background-image: url('/img/emmanuel.png');
+  background-size: cover;
+}
+
+.focus--text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.focus--text-1 {
+ padding-right: 5rem;
+}
+.focus--text-2 {
+ padding-right: 5rem;
+}
+.focus--text-3 {
+ padding-right: 5rem;
+}
+.focus--text-4 {
+ padding-right: 5rem;
+}
+.focus--text-5 {
+ padding-right: 5rem;
+}
+.focus--text-6 {
+ padding-right: 5rem;
+}
+
+.experts__text {
+  padding-top: 7rem;
+}
+
+.experts__text h1{
+  font-size: 3.75rem;
+  font-weight: bold;
+  padding-bottom: 2.5rem;
+}
+
+.experts__text p {
+  font-size: 1.5rem;
+}
+
 
 .learnable__classrooms {
   width: 100%;
@@ -486,7 +616,7 @@ span .build {
 .card__image--4 {
   width: 100%;
   height: 19rem;
- background-image: url('/img/journal-4.png');
+  background-image: url('/img/journal-4.png');
   background-repeat: no-repeat, repeat;
   background-size: cover; 
 }
