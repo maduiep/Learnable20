@@ -34,7 +34,13 @@ const Learnable = () => {
 
    <main>
     <section className="learnable__commingsoon">
-      <div className="comingsoon__content--1"></div>
+      <div className="comingsoon__content--1">
+        <h1>Coming soon: Learnable ‘20</h1>
+        <p>
+          We've started taking in applications for the next batch of learnable <br/> 
+          interns. Applications are on till the 21st of Febuary
+        </p>
+      </div>
       <div className="comingsoon__content--2"></div>
     </section>
     <section className="learnable__everything"></section>
