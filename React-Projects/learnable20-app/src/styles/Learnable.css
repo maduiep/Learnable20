@@ -240,13 +240,16 @@ span .build {
  font-weight: bold;
 }
 
+/* Software Styles */
 .learnable__software {
   width: 100%;
   height: 75rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10rem;
   background-color: var(--main-bg-color);
 }
 
-<<<<<<< HEAD
 .software__contents {
   width: 40rem;
   height: 60rem;
@@ -321,17 +324,92 @@ span .build {
 }
 
 
+
 /* Desin Styles */
-=======
->>>>>>> parent of ac55aa2... deleting contents i developer file, aslo adding more contents to learnable page
+
 .learnable__design {
   width: 100%;
   height: 75rem;
-  padding-top: 5rem;
   display: flex;
   justify-content: space-around;
+  padding-top: 10rem;
   background-color: var(--grey-bg-color);
 }
+
+.design__contents {
+  width: 40rem;
+  height: 60rem;
+ 
+  display: grid;
+  grid-template-rows: 20rem 20rem 20rem;
+  grid-template-columns: 20rem 20rem ;    
+}
+
+.design__content-1 {
+  padding: 2rem;
+  background-color: var(--spaceCadet-bg-color);
+}
+
+.design__content-2 {
+  padding: 2rem;
+  background-color: var(--cbGreen-bg-color);
+}
+
+.design__content-3 {
+  padding: 2rem;
+  background-color: var(--saffron-bg-color);
+}
+
+.design__content-4 {
+  padding: 2rem;
+  background-color: var(--darkPurple-bg-color);
+}
+
+.design__content-5 {
+  padding: 2rem;
+  background-color:var(--gunMetalbg-bg-color);
+}
+.design__content-6 {
+  padding: 2rem;
+  background-color: var(--vividTang-bg-color);
+}
+
+.design__text {
+  padding-top: 20rem;
+}
+
+.design__text h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--gunMetalbg-bg-color)
+}
+
+.design__text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--gunMetalbg-bg-color)
+}
+
+.design__text p {
+  font-size: 1.5rem;
+  color: var(--gunMetalbg-bg-color)
+}
+
+.design__text h4 {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  text-decoration: underline;
+  color: var(--cbGreen-bg-color)
+}
+
+.h1-styles {
+  font-size: 2rem;
+  color: var(--main-bg-color)
+}
+
+
 
 /* Eligible */
 

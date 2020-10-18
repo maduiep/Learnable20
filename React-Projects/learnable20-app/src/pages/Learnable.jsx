@@ -85,9 +85,8 @@ const Learnable = () => {
       </div>
     </section>
 
-<<<<<<< HEAD
     <section className="learnable__software">
-     <div className="software__text">
+      <div className="software__text">
       <h5>For  Developers</h5>
       <h1>Learn to Build Software <br/> the Right Way</h1>
       <p>
@@ -100,36 +99,9 @@ const Learnable = () => {
         that’s how our industry will thrive.
       </p>
       <h4>Learn more</h4>
-     </div>
-
+     </div> 
+     
      <div className="software__contents">
-      <diV className="software__content-1">
-        <h1 className="h1-styles">Program with <br/> JavaScript</h1>
-      </diV>
-      <diV className="software__content-2">
-       <h1 className="h1-styles">Version Control <br/> with Git</h1>
-      </diV>
-      <diV className="software__content-3">
-       <h1 className="h1-styles">Web<br/> Development<br/> with React</h1>
-      </diV>
-      <diV className="software__content-4">
-       <h1 className="h1-styles">Building APIs <br/> with NodeJS</h1>
-      </diV>
-      <diV className="software__content-5">
-       <h1 className="h1-styles">Managing Data with <br/> MongoDB</h1>
-      </diV>
-      <diV className="software__content-6">
-       <h1 className="h1-styles">Deploying with <br/> Heroku</h1>
-      </diV>
-     </div>
-
-     </section>
-=======
-    <section className="learnable__software"> <h1>Learn to Build Software the Right Way</h1> </section>
->>>>>>> parent of ac55aa2... deleting contents i developer file, aslo adding more contents to learnable page
-
-    <section className="learnable__design">
-      <div className="software__contents">
         <diV className="software__content-1">
           <h1 className="h1-styles">Program with <br/> JavaScript</h1>
         </diV>
@@ -149,8 +121,31 @@ const Learnable = () => {
         <h1 className="h1-styles">Deploying with <br/> Heroku</h1>
         </diV>
       </div>
+    </section>
 
-      <div className="software__text">
+    <section className="learnable__design">
+      <div className="design__contents">
+        <diV className="design__content-1">
+          <h1 className="h1-styles">Design User <br/> Interfaces</h1>
+        </diV>
+        <diV className="design__content-2">
+        <h1 className="h1-styles">Craft User <br/> Experiences</h1>
+        </diV>
+        <diV className="design__content-3">
+        <h1 className="h1-styles">Apply Design <br/> Thinking</h1>
+        </diV>
+        <diV className="design__content-4">
+        <h1 className="h1-styles">Build <br/> Information <br/> Architecture</h1>
+        </diV>
+        <diV className="design__content-5">
+        <h1 className="h1-styles">Copy write for <br/> Projects</h1>
+        </diV>
+        <diV className="design__content-6">
+        <h1 className="h1-styles">Brand Products</h1>
+        </diV>
+      </div>
+
+    <div className="design__text">
       <h5>For  Designers</h5>
       <h1>Design Different</h1>
       <p>
