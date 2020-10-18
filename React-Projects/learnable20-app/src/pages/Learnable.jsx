@@ -14,7 +14,7 @@ const Learnable = () => {
     </div>
    
      <nav className="genesys__navbar">
-      <ul className="navbar-items-1">
+      <ul className="navbar__items--1">
        <li><a href="#">learnable</a></li>
        <li><a href="#">agora</a></li>
        <li><a href="#">startzone</a></li>
@@ -22,15 +22,19 @@ const Learnable = () => {
        <li><a href="#">contact</a></li>
       </ul>
      </nav>
-     <div className="genesys__navbar-right">
-      <span className="build">build a product with</span>
-      <button className="devstudio">
-       <a href="#">devstudio</a>
-      </button>
+
+     <div className="genesys__item--right">
+      <p className="build">build a product with &nbsp; <span><a href="#" className="btn">devstudio</a></span></p>
      </div>
    </header>
   
    <nav className="learnable__navbar">
+    <li><a href="#">home</a></li>
+    <li><a href="#">software developers</a></li>
+    <li><a href="#">product designers</a></li>
+    <li><a href="#">apply</a></li>
+    <li><a href="#">journal</a></li>
+    <li><a href="#">faq</a></li>
    </nav>
 
    <main>
@@ -50,7 +54,7 @@ const Learnable = () => {
       </div>
     </section>
     <section className="learnable__everything"></section>
-
+    <section></section>
     <section className="learnable__gathering"></section>
 
     <section className="learnable__making">
@@ -437,7 +441,7 @@ const Learnable = () => {
    <footer className="genesys__footer">
     <div className="footer__content">
      <div className="footer__left">
-     <ul className="footer__link-1">
+     <ul className="footer__links">
       <li><a href="#" className="footer__link">build software</a></li>
       <li><a href="#" className="footer__link">design different</a></li>
       <li><a href="#" className="footer__link">apply your knowledge</a></li>
